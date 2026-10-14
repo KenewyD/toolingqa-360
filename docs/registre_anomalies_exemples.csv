@@ -1,0 +1,9 @@
+﻿ID;Titre;Étapes de reproduction;Attendu;Observé;Sévérité;Statut;Nature
+BUG-EX-001;Doublon insensible à la casse;Créer A-001 puis a-001;Refus du doublon;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-002;Affectation sans bénéficiaire;"Choisir disponible; laisser bénéficiaire vide";Erreur explicite;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-003;Double affectation;Affecter deux fois le même outil;Deuxième affectation refusée;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-004;Retour outil en maintenance;"Choisir maintenance; cliquer retour";Retour refusé;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-005;Référence vide;Créer outil avec référence vide;Enregistrement refusé;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-006;Désignation vide;Créer outil avec désignation vide;Enregistrement refusé;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-007;Compteurs après affectation;Affecter un outil disponible;Indicateurs mis à jour;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
+BUG-EX-008;Recherche sans résultat;Rechercher une référence inexistante;Tableau vide sans erreur;À constater pendant recette;Moyenne;Exemple non vérifié;Exemple pédagogique, pas anomalie confirmée
